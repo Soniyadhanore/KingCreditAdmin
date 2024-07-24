@@ -1,0 +1,64 @@
+.ant-form-item-required {
+  &::before {
+    position: absolute;
+    right: 0;
+  }
+}
+.editor-height {
+  .ck-content.ck-editor__editable {
+    min-height: calc(100vh - 375px);
+  }
+}
+.ck.ck-balloon-panel.ck-balloon-panel_visible {
+  display: none !important;
+}
+input[readonly],
+.ant-input-affix-wrapper-readonly {
+  background: rgb(248, 248, 248);
+}
+.ck-editor__editable {
+  min-height: 150px;
+}
+.ant-table-cell-row-hover {
+  background-color: transparent !important;
+}
+.link {
+  color: #1677ff !important;
+}
+.opportunityDetail , .cardHeightFull{
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+}
+.PhoneInputInput {
+    &:focus-visible {
+        outline: none !important;
+    }
+}
+.ant-layout-sider-has-trigger{
+  flex: 0px 0px 0px 240px !important;
+  width: 240px !important;
+  max-width: 240px !important;
+  min-width: 240px !important;
+  &.ant-layout-sider-collapsed{
+    flex: 0px 0px 0px 80px !important;
+    width: 80px !important;
+    max-width: 80px !important;
+    min-width: 80px !important;
+  }
+}
+.selectTemplate {
+  .ant-radio {
+    position: absolute !important;
+    top: 0;
+    z-index: -1;
+  }
+  .ant-radio-wrapper-checked {
+    .selectTemplateLable {
+      background-color: #1677ff;
+      img {
+        border: 1px solid #1677ff;
+        opacity: 0.6;
+      }
+    }
+  }
+}
